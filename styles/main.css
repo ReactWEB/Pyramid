@@ -1,45 +1,49 @@
 
 .wrapper{
-  width: 1000px;
-  height: 500px;
-  margin: 0 auto;
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;  
   position: relative;
 }
 .box{
   height: 60px;
   position: absolute;  
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 .box:hover{
-  filter: brightness(200%);
-  transition: .2s;
+  background-color: #cc33ff;
+  transition: all 2s ease;
+  cursor: pointer;
 }
 .gray{
   width: 800px;  
-  background-color: #333;
-  margin: 35% 10% 8%;
+  background-color: #333;  
+  bottom: 0;
 }
 .orange{
   width: 700px;  
-  background-color: #ff3300;
-  margin: 32% auto auto 15%;
+  background-color: #ff3300; 
+  bottom: 30px; 
 }
 .green{
   width: 600px;
-  background-color: #00ff00;
-  margin: 29% auto auto 20%;
+  background-color: #00ff00; 
+  bottom: 60px; 
 }
 .blue{
   width: 500px;
-  background-color: #6600ff;
-  margin: 26% auto auto 25%;
+  background-color: #6600ff; 
+  bottom: 90px; 
 }
 .violet{
   width: 400px;
   background-color: #ff3399;
-  margin: 23% auto auto 30%;
+  bottom: 120px;  
 }
 .red{
   width: 300px;
-  background-color: #ff0000;
-  margin: 20% auto auto 35%;
+  background-color: #ff0000;  
+  bottom: 150px;
 }
